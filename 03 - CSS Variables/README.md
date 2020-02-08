@@ -6,13 +6,17 @@
 
 **Demo:**[here](https://tjgillweb.github.io/JavaScript30/03%20-%20CSS%20Variables/).
 
+![](images/03_screenshot.png)
+
 So, lets begin!
 
 CSS variables can be updated with JavaScript, meaning that when you update a variable in CSS, everywhere on the page that that variable is referenced will update itself.
-It is different from *SASS* variables in that you define the SASS variables at compile time and then it gets compiled and you cannot change it.
+It is different from **SASS** variables in that you define the SASS variables at compile time and then it gets compiled and you cannot change it.
 
 - we use base color to define the background of the image and also the highlight color of 'JS' in the heading.
-`<h2>Update CSS Variables with <span class='hl'>JS</span></h2>`
+```
+<h2>Update CSS Variables with <span class='hl'>JS</span></h2>
+```
 
 ### In CSS
 
@@ -74,7 +78,7 @@ and the get the suffix by `dataset.sizing` via JS
 `const suffix = this.dataset.sizing || '';`
 and don't forget a condition with || '' for <input type=color> which has no px.
 
-#### Update the CSS Varibles
+#### Update the CSS Variables
 We will select our entire document which is our root here and we will set a property of base, spacing, or blur
 ```
 function handleUpdate() {
