@@ -7,6 +7,8 @@ Write appropriate CSS and Javascript so that the div `panel` when clicked, makes
 
 **Demo:**[here](https://tjgillweb.github.io/JavaScript30/05%20-%20Flex%20Panel%20Gallery/).
 
+![](images/flex-gallery-screenshot.png)
+
 So, lets begin!
 
 ### In CSS
@@ -35,33 +37,33 @@ So, lets begin!
      align-items: center;
   }
   ```
-  
-- Hide the first-child all the way up and last-childs all the way down.
-  ```CSS
-   .panel>*:first-child {
-      transform: translateY(-100%);
-    }
-
-    .panel.open-active>*:first-child {
-      transform: translateY(0);
-    }
-
-    .panel>*:last-child {
-      transform: translateY(100%);
-    }
-
-    .panel.open-active>*:last-child {
-      transform: translateY(0);
-    }
- ```
  
-- When the `panel` has a class of open, it's going to take 5 times the space as the other flex items and also increase the font size.
-  ```CSS
-  .panel.open {
-    flex: 5;
-    font-size: 40px;
+- Hide the first-child all the way up and last-childs all the way down.
+```CSS
+ .panel>*:first-child {
+    transform: translateY(-100%);
   }
-  ```
+
+  .panel.open-active>*:first-child {
+    transform: translateY(0);
+  }
+
+  .panel>*:last-child {
+    transform: translateY(100%);
+  }
+
+  .panel.open-active>*:last-child {
+    transform: translateY(0);
+  }
+```
+
+- When the `panel` has a class of open, it's going to take 5 times the space as the other flex items and also increase the font size.
+```CSS
+.panel.open {
+  flex: 5;
+  font-size: 40px;
+}
+```
   
 ### In Javascript
   
