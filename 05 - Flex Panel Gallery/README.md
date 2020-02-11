@@ -18,26 +18,26 @@ So, lets begin!
   ```
   
 - ```CSS
-      .panel {
-        flex: 1; // to evenly distribute space among all flex children
-        display: flex;  // make it a flex-container (it's both a flex-item and a flex-container)
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-      }
+  .panel {
+     flex: 1; // to evenly distribute space among all flex children
+     display: flex;  // make it a flex-container (it's both a flex-item and a flex-container)
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+  }
   ```
   
 -  ```CSS
-        .panel > * {
-          flex: 1 0 auto; 
-          display: flex;  
-          justify-content: center;
-         align-items: center;
-        }
+  .panel > * {
+     flex: 1 0 auto; 
+     display: flex;  
+     justify-content: center;
+     align-items: center;
+  }
   ```
   
  -  Hide the first-child all the way up and last-childs all the way down.
-     ```CSS
+  ```CSS
    .panel>*:first-child {
       transform: translateY(-100%);
     }
@@ -63,9 +63,9 @@ So, lets begin!
   }
   ```
   
-  ### In Javascript
+### In Javascript
   
-1. Add click event to toggle the 'open' class on each `panel` using JS `toggle()` function.
+- Add click event to toggle the 'open' class on each `panel` using JS `toggle()` function.
 ```Javascript
 const panels = document.querySelectorAll('panel');
 
@@ -77,7 +77,7 @@ panels.forEach(panel => panel.addEventListener('click', toggleOpen));
 ```
 ***Note:*** If we use toggleOpen() inside addEventListener, then it would run on page load. But we don't want to run the function. We just want to give it reference to the function and say, Hey, when someone clicks me, make sure that you go find this function and run.
 
-2. Once the center word has finished transitioning itself open, we want to bring in the word from the top and bring in the word from the bottom.
+- Once the center word has finished transitioning itself open, we want to bring in the word from the top and bring in the word from the bottom.
 
 ```Javascript
 function toggleActive(e){
@@ -89,4 +89,4 @@ panels.forEach(panel => panel.addEventListener('transitionend', toggleActive));
 ```
 ***Note:*** We didn't use (e.propertyName == 'flex-grow') because some browsers use 'flex-grow' and some only 'flex'. So, to cover both the cases we used the  `includes` property.
 
-***To summarize *** What we did is that first we listen for a click on each panel. When someone clicks, it opens it. That's going to then, in turn, trigger a CSS open and when that finishes, `transitionend` will fire, and that will toggle open-active.
+***To summarize:*** What we did is that first we listen for a click on each panel. When someone clicks, it opens it. That's going to then, in turn, trigger a CSS open and when that finishes, `transitionend` will fire, and that will toggle open-active.
