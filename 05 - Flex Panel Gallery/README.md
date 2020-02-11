@@ -1,4 +1,4 @@
-# 03 - CSS Variables
+# 05 - Flex Panel Gallery
 
 **Challenge:** Given a div with a class of `panels`, and inside each of these panels is going to be a div called `panel`. And then inside of each of those panels is going to be 3 words like "Give," "Take," "Receive." 
 Write appropriate CSS and Javascript so that the div `panel` when clicked, makes the words grow in size, as well as they're going to fall from the top and come up from the bottom.
@@ -11,33 +11,33 @@ So, lets begin!
 
 ### In CSS
 
-1. ```CSS
+- ```CSS
   .panels {
     display: flex; // make a flex-container
   }
   ```
   
-2. ```CSS
-  .panel {
-    flex: 1; // to evenly distribute space among all flex children
-    display: flex;  // make it a flex-container (it's both a flex-item and a flex-container)
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+- ```CSS
+      .panel {
+        flex: 1; // to evenly distribute space among all flex children
+        display: flex;  // make it a flex-container (it's both a flex-item and a flex-container)
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
   ```
   
-3.  ```CSS
-  .panel > * {
-    flex: 1 0 auto; 
-    display: flex;  
-    justify-content: center;
-    align-items: center;
-  }
+-  ```CSS
+        .panel > * {
+          flex: 1 0 auto; 
+          display: flex;  
+          justify-content: center;
+         align-items: center;
+        }
   ```
   
- 4. Hide the first-child all the way up and last-childs all the way down.
- ```CSS
+ -  Hide the first-child all the way up and last-childs all the way down.
+     ```CSS
    .panel>*:first-child {
       transform: translateY(-100%);
     }
@@ -55,7 +55,7 @@ So, lets begin!
     }
  ```
  
- 5. When the `panel` has a class of open, it's going to take 5 times the space as the other flex items and also increase the font size.
+- When the `panel` has a class of open, it's going to take 5 times the space as the other flex items and also increase the font size.
   ```CSS
   .panel.open {
     flex: 5;
@@ -79,7 +79,7 @@ panels.forEach(panel => panel.addEventListener('click', toggleOpen));
 
 2. Once the center word has finished transitioning itself open, we want to bring in the word from the top and bring in the word from the bottom.
 
-```
+```Javascript
 function toggleActive(e){
     if(e.propertyName.includes('flex')){
         this.classList.toggle('open-active');
