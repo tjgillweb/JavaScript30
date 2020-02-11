@@ -27,7 +27,7 @@ So, lets begin!
   }
   ```
   
--  ```CSS
+- ```CSS
   .panel > * {
      flex: 1 0 auto; 
      display: flex;  
@@ -36,7 +36,7 @@ So, lets begin!
   }
   ```
   
- -  Hide the first-child all the way up and last-childs all the way down.
+- Hide the first-child all the way up and last-childs all the way down.
   ```CSS
    .panel>*:first-child {
       transform: translateY(-100%);
@@ -67,7 +67,7 @@ So, lets begin!
   
 - Add click event to toggle the 'open' class on each `panel` using JS `toggle()` function.
 ```Javascript
-const panels = document.querySelectorAll('panel');
+const panels = document.querySelectorAll('.panel');
 
 function toggleOpen(){
     this.classList.toggle('open');
