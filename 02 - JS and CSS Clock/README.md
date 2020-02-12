@@ -2,9 +2,9 @@
 
 **Challenge:** Create a CSS Clock that takes the current time from JavaScript and animates the hands of the clock based on the current hour, minutes and seconds.
 
-**Things To Learn:**
+**Things To Learn:** How to transition CSS (hands of clock) using Javascript.
 
-**Demo:**
+**Demo:**[here](https://tjgillweb.github.io/JavaScript30/02%20-%20JS%20and%20CSS%20Clock/).
 
 So, lets begin!
 
