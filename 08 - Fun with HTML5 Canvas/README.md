@@ -24,7 +24,14 @@ So, lets begin!
   - The `<canvas>` element has a method called `getContext()`, used to obtain the rendering context and its drawing functions. 
   - `getContext()` takes one parameter, the type of context.
   
-```Javascript
-    const canvas = document.querySelector('#draw');
-    const ctx = canvas.getContext('2d');
-```
+    ```Javascript
+        const canvas = document.querySelector('#draw');
+        const ctx = canvas.getContext('2d');
+    ```
+    
+   - Next we need size up our canvas to be the exact width of the window. By default, the canvas is 800px by 800px.
+     ```Javascript
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+    ```
+    
