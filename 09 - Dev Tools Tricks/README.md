@@ -15,7 +15,11 @@ So, lets begin!
 - Now when we click on the element on the page, it will pop a debugger command in. It's a break point for us and it will then pause.
 - Exactly where it paused, it will show us the line of code that is causing that attribute.
 
+![](images/attributes-modification.JPG)
+
 ### Console.log Tricks
+
+![](images/console-messages.JPG)
 
 #### 2. Regular
 `console.log('hello');`
@@ -91,6 +95,7 @@ const paragraph = document.querySelector('p');
 console.log(paragraph);
 console.dir(paragraph);
 ```
+![](images/console.dir-screenshot.JPG)
 
 #### 11. Grouping Together
 - We can use nested groups to help organize our output by visually associating related messages. 
@@ -105,6 +110,7 @@ dogs.forEach(dog => {
     console.groupEnd(`${dog.name}`);
 });
 ```
+![](images/console.group.JPG)
 
 #### 12. Counting
 - `Console.count` will count however many times you use a specific word, or number, or object, or DOM node, or anything that you have.
@@ -118,6 +124,7 @@ console.count('sun');
 console.count('moon');
 console.count('moon');
 ```
+![](images/console.count.JPG)
 
 #### 13. Timing
 - `console.time` starts a timer you can use to track how long an operation takes. You give each timer a unique name, and may have up to 10,000 timers running on a given page. 
@@ -131,8 +138,10 @@ fetch('https://api.github.com/users/wesbos')
         console.log(data);
     });
 ```
+![](images/console.time.JPG)
 
 #### 14. Table Format
 ```Javascript 
 console.table(dogs);
 ```
+![](images/console.table.JPG)
