@@ -2,7 +2,7 @@
 
 **Challenge:** Given a list of checkboxes, each of them striked through when an input is checked, write the necessary JavaScript code to allow a user to select multiple items while holding down the shift key i.e. all the checkboxes in between the first one and the last one you checked will then be checked. It should work top to bottom, but also bottom to top.
 
-**Things To Learn:** 
+**Things To Learn:** Click event, how to use flags in building logic.
 
 **Demo:**[here](https://tjgillweb.github.io/JavaScript30/10%20-%20Hold%20Shift%20to%20Check%20Multiple%20Checkboxes/).
 
