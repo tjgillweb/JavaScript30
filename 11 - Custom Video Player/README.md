@@ -9,11 +9,11 @@ Build a totally custom interface where we will hide the controls and build our o
 - skip buttons that allow you to skip forward 25s or get back 10s, and 
 - when we click the video it will pause.
 
-**Things To Learn:** Click, mousemove, change, play, pause, timeupdate events. `video.paused`, `video.currentTime`,`video.duration` dataset 
+**Things To Learn:** Click, mousemove, change, play, pause, timeupdate events. `video.paused`, `video.currentTime`,`video.duration` and  dataset 
 
 **Demo:**[here](https://tjgillweb.github.io/JavaScript30/11%20-%20Custom%20Video%20Player/).
 
-![](images/shift-multiple-checkboxes.gif)
+![](images/custom-video-player-screenshot.gif)
 
 So, lets begin!
 
