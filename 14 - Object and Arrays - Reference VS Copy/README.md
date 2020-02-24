@@ -4,7 +4,7 @@
 
 **Things To Learn:** Different ways to make a copy rather than a actual reference in arrays and objects.
 
-**Demo:**[here](https://tjgillweb.github.io/JavaScript30/13%20-%20Slide%20in%20on%20Scroll/).
+**Demo:**[here](https://tjgillweb.github.io/JavaScript30/14%20-%20Object%20and%20Arrays%20-%20Reference%20VS%20Copy/).
 
 ![](images/reference-vs-copy-screenshot.png)
 
