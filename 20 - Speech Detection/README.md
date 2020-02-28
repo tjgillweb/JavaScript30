@@ -2,7 +2,7 @@
 
 **Challenge:** Learn all about speech recognition in the browser.
 
-**Things To Learn:** parseFloat, mod operator, Array methods map, reduce, split.
+**Things To Learn:** `SpeechRecognition`, `.appendChild()` and `end` event.
 
 **Demo:**[here](https://tjgillweb.github.io/JavaScript30/20%20-%20Speech%20Detection/).
 
