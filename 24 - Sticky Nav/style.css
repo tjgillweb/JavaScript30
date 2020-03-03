@@ -34,7 +34,7 @@ body {
 header {
   text-align: center;
   height: 50vh;
-  background: url(background.jpg) bottom center no-repeat;
+  background: url(images/background.jpg) bottom center no-repeat;
   background-size: cover;
   display: flex;
   align-items: center;
