@@ -2,7 +2,7 @@
 
 **Challenge:** Work with Speech Synthesis API that comes in most modern browsers. Convert text to voice.
 
-**Things To Learn:** `voiceschanged` event, `getBoundingClientRect()` function
+**Things To Learn:** `voiceschanged` event, `speechSynthesis` variable and its properties, array methods `filter`, `map`, `find`, how to pass in a function as an argument.
 
 **Demo:**[here](https://tjgillweb.github.io/JavaScript30/23%20-%20Speech%20Synthesis/).
 
