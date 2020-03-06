@@ -46,7 +46,6 @@ function startGame() {
 function bonk(e) {
     if (!e.isTrusted) return; //fake click - cheater!!
     score++;
-    console.log(this);
     this.classList.remove('up');
     scoreBoard.textContent = score;
 }
