@@ -23,6 +23,19 @@ h1 {
   margin-bottom: 0;
 }
 
+button {
+  margin: 0 auto;
+  display: block;
+  background: #000;
+  border-radius: 12px;
+  border-color: #000;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+
 .score {
   background: rgba(255, 255, 255, 0.2);
   padding: 0 3rem;
