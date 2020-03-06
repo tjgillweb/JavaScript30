@@ -164,6 +164,22 @@ I was blown away by the number of cool things I could do with the console.
 **What I Learned:** `mousedown`, `mouseleave`, `mouseout`, `mouseup` and `mousemove` events
 [Demo](https://tjgillweb.github.io/JavaScript30/27-%20Click%20and%20Drag%20to%20Scroll/).
 
+### Day 22: 5 Mar 2020
+#### 28 - Video Speed Controller
+**What I Learned:** working with mousemove events, HTML5 video, string toFixed method.
+[Demo](https://tjgillweb.github.io/JavaScript30/28%20-%20Video%20Speed%20Controller/).
+
+#### 29 - Countdown Clock
+**What I Learned:** setInterval, how to select element using name attribute. 
+[Demo](https://tjgillweb.github.io/JavaScript30/29%20-%20Countdown%20Clock/).
+
+### Day 23: 6 Mar 2020
+#### 30 - Whack A Mole Game
+**What I Learned:** setTimeout(), e.isTrusted and how to set random time.
+[Demo](https://tjgillweb.github.io/JavaScript30/30%20-%20Whack%20A%20Mole/).
+
+IT'S A WRAPP!!!!!!!!
+
 
 
 
